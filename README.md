@@ -1,4 +1,4 @@
-I want you to generate a complete full-stack web application called **Skill Swap**.
+
 
 **Goal**: Skill Swap is a social learning platform for developers to exchange skills, teach each other, and learn through AI-powered personalized paths and real-time collaboration. The app should function similarly to Mimo or Duolingo but allow users to match with other developers based on shared goals.
 
@@ -18,7 +18,7 @@ I want you to generate a complete full-stack web application called **Skill Swap
 
 💻 Tech Stack:
 - **Frontend**: React.js with Tailwind CSS
-- **Backend**: Supabase 
+- **Backend**: Mongo DB
 - **Database**: Supabase Authentication
 - **Authentication**: Supabase Authentication
 - **Real-time Chat**: Supabase Real-time chat
@@ -63,7 +63,7 @@ I want you to generate a complete full-stack web application called **Skill Swap
 
 ---
 
-🧱 SupabaseDB Schema Suggestions:
+🧱 MongoDB Schema Suggestions:
 - `/users`: { name, email, skillsHave, skillsWant, XP, streak, avatar }
 - `/matches`: { user1, user2, score, createdAt }
 - `/lessons`: { skill, title, level, quiz, XP }
