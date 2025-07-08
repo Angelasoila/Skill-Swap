@@ -6,8 +6,8 @@
 
 💻 Tech Stack:
 - **Frontend**: React.js with Tailwind CSS
-- **Backend**: MongoDB
-- **Database**: mongo Database
+- **Backend**: Supabase
+- **Database**: Supabase Database
 - **Authentication**: Supabase Authentication
 - **Real-time Chat**: Supabase Real-Time chat
 - **AI Integration**: GroqI want you to generate a complete full-stack web application called **Skill Swap**.
@@ -18,7 +18,7 @@
 
 💻 Tech Stack:
 - **Frontend**: React.js with Tailwind CSS
-- **Backend**: Mongo DB
+- **Backend**: Supabase DB
 - **Database**: Supabase Authentication
 - **Authentication**: Supabase Authentication
 - **Real-time Chat**: Supabase Real-time chat
@@ -63,7 +63,7 @@
 
 ---
 
-🧱 MongoDB Schema Suggestions:
+🧱 SupabaseDB Schema Suggestions:
 - `/users`: { name, email, skillsHave, skillsWant, XP, streak, avatar }
 - `/matches`: { user1, user2, score, createdAt }
 - `/lessons`: { skill, title, level, quiz, XP }
@@ -139,9 +139,5 @@ AI API for skill matching and lesson suggestions
 - Daily motivational pop-ups
 
 ---
-
-Please generate the full backend API (routes, models, controllers) and frontend React components (pages, forms, dashboard, chat, etc.) using clean architecture.
-
-Also, include comments to explain logic and how to test each part locally.
 
 
