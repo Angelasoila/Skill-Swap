@@ -44,12 +44,12 @@ The platform combines the **social vibe of Stack Overflow**, the **gamified appr
 
 | Tech        | Role                           |
 |-------------|--------------------------------|
-| **React.js**     | Frontend UI                  |
-| **Node.js + Express** | Backend API                   |
-| **MongoDB**      | Database (Mongoose ORM)       |
-| **Socket.io**    | Real-time chat                |
-| **OpenAI API**   | Skill matching & suggestions  |
-| **JWT Auth / Firebase** | User authentication         |
+| **React.tsx**     | Frontend UI                  |
+| **Supabase** | Backend API                   |
+| **Supabase Database**      | Database (Mongoose ORM)       |
+| **Supabase Realtime chat**    | Real-time chat                |
+| **Groq AI**   | Skill matching & suggestions  |
+| **Supabase Authentication** | User authentication         |
 | **Tailwind CSS** | Styling and UI components     |
 
 ---
