@@ -6,8 +6,8 @@
 
 💻 Tech Stack:
 - **Frontend**: React.js with Tailwind CSS
-- **Backend**: Supabase
-- **Database**: Supabase Database
+- **Backend**: MongoDB
+- **Database**: mongo Database
 - **Authentication**: Supabase Authentication
 - **Real-time Chat**: Supabase Real-Time chat
 - **AI Integration**: GroqI want you to generate a complete full-stack web application called **Skill Swap**.
