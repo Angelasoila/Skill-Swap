@@ -1,58 +1,73 @@
+# Welcome to your Lovable project
 
-# 💬 Skill Swap
+## Project info
 
-**Learn. Teach. Grow. Together.**  
-Skill Swap is a gamified, AI-powered learning platform where developers exchange knowledge, connect with mentors, and build community through skill sharing.
+**URL**: https://lovable.dev/projects/0c4d631f-ede8-4819-9452-94abd0fa63ee
 
----
+## How can I edit this code?
 
-## 🚀 Overview
+There are several ways of editing your application.
 
-**Skill Swap** is built to solve a real developer problem — learning in isolation. We empower developers to:
-- Learn new skills
-- Teach what they know
-- Track their growth
-- And connect with other devs across the globe
+**Use Lovable**
 
-The platform combines the **social vibe of Stack Overflow**, the **gamified approach of Duolingo**, and the **matchmaking logic of LinkedIn**, all powered by AI.
+Simply visit the [Lovable Project](https://lovable.dev/projects/0c4d631f-ede8-4819-9452-94abd0fa63ee) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🧠 Features
+**Use your preferred IDE**
 
-### 🧠 AI-Powered Matching
-- Match with mentors or learners based on `skillsHave` and `skillsWant`
-- Personalized learning suggestions via OpenAI API
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 🎮 Gamified Learning
-- XP system, level tracking, streaks, and badges
-- Encourages consistency and growth
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 💬 Real-time Chat + Resource Sharing
-- Chat system for shared learning
-- Upload and exchange learning materials
-- Schedule study sessions or 1-on-1 mentor calls
+Follow these steps:
 
-### 📈 Personalized Dashboard
-- Progress overview
-- Current skill goals and achievements
-- AI lesson feed
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🔧 Tech Stack
+# Step 3: Install the necessary dependencies.
+npm i
 
-| Tech        | Role                           |
-|-------------|--------------------------------|
-| **React.tsx**     | Frontend UI                  |
-| **Supabase** | Backend API                   |
-| **Supabase Database**      | Database (Mongoose ORM)       |
-| **Supabase Realtime chat**    | Real-time chat                |
-| **Groq AI**   | Skill matching & suggestions  |
-| **Supabase Authentication** | User authentication         |
-| **Tailwind CSS** | Styling and UI components     |
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
----
+**Edit a file directly in GitHub**
 
-## 📁 Folder Structure
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/0c4d631f-ede8-4819-9452-94abd0fa63ee) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
